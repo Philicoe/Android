@@ -4,7 +4,6 @@
     tools:context="bubbly2017.payfare.com.bubbly2017.ServerSetup">
 
 
-
     <item android:id="@+id/Server_Settings_menu_action_exit" android:title="@string/Server_Settings_menu_action_settings"
         android:orderInCategory="100" app:showAsAction="ifRoom" />
 
