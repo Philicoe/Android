@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+tools:context="bubbly2017.payfare.com.bubbly2017.ServerSetup"
+android:orientation="vertical"
+android:id="@+id/activity_server_setup"
+android:background="@color/SBSA_white">
+
+
+<TextView
+    android:layout_marginBottom="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Server_Settings_Menu"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/Server_setting_menu"
+    android:background="@color/SBSA_white"
+    android:textColor="@color/fullblack"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:text="Server IP:"
+    android:background="@color/SBSA_white"
+    android:textColor="@color/fullblack"/>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"  >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/svripLayout"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/ed_default_server_ip"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="45dp"
+            android:background="@color/SBSA_white"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="3"
+            android:singleLine="true"
+            android:text="@string/default_IP"
+            android:textColor="@color/fullblack"
+            android:textIsSelectable="false" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="."
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/SBSA_white"
+            android:textColor="@color/fullblack"/>
+
+        <EditText
+            android:id="@+id/ed_default_server_ip2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/SBSA_white"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="3"
+            android:singleLine="true"
+            android:text="@string/default_IP2"
+            android:textColor="@color/fullblack"
+            android:textIsSelectable="false" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/SBSA_white"
+            android:textColor="@color/fullblack"/>
+
+        <EditText
+            android:id="@+id/ed_default_server_ip3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/SBSA_white"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="3"
+            android:singleLine="true"
+            android:text="@string/default_IP3"
+            android:textColor="@color/fullblack"
+            android:textIsSelectable="false" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/SBSA_white"
+            android:textColor="@color/fullblack"/>
+
+        <EditText
+            android:id="@+id/ed_default_server_ip4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/ed_Connection_Timeout"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:background="@color/SBSA_white"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="3"
+            android:singleLine="true"
+            android:text="@string/default_IP4"
+            android:textColor="@color/fullblack"
+            android:textIsSelectable="false" />
+
+        <RadioButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="18dp"
+            android:layout_gravity="center"
+            android:id="@+id/radButtonConncected"
+            android:background="@drawable/radiobutton_style"/>
+
+
+        <requestFocus
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Server PORT:"
+        android:gravity="center"
+        android:background="@color/SBSA_white"
+        android:textColor="@color/fullblack"
+        android:layout_alignLeft="@id/svripLayout"
+        android:layout_below="@id/svripLayout"
+        android:id="@+id/lblSvrport"/>
+
+    <EditText
+        android:id="@+id/ed_default_server_port"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/lblSvrport"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@id/lblSvrport"
+        android:background="@color/SBSA_white"
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="@string/default_port"
+        android:textColor="@color/fullblack" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Server Connection Timeout:"
+        android:background="@color/SBSA_white"
+        android:textColor="@color/fullblack"
+        android:layout_below="@id/lblSvrport"
+        android:id="@+id/lblTimeout"/>
+
+    <EditText
+        android:id="@+id/ed_Connection_Timeout"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_default_server_port"
+        android:layout_toEndOf="@+id/lblTimeout"
+        android:background="@color/SBSA_white"
+        android:gravity="center"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="@string/Server_Default_Timeout"
+        android:textColor="@color/fullblack" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Server Test Message:"
+        android:background="@color/SBSA_white"
+        android:textColor="@color/fullblack"
+        android:id="@+id/lblsvstestmsg"
+        android:layout_below="@id/lblTimeout"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="@string/Server_Test_Message"
+        android:id="@+id/ed_Test_Message"
+        android:background="@drawable/my_square_border"
+        android:textColor="@color/fullblack"
+        android:layout_below="@id/lblsvstestmsg"/>
+
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/btnTestConnection"
+        android:text="@string/TestServerConnection" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+
+        android:layout_toRightOf="@id/btnTestConnection"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/btnSendTestString"
+        android:text="@string/Send_Svr_Test_MSG"/>
+
+</RelativeLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ed_Test_Server_Response"
+    android:text="\n Waiting..."
+    android:background="@drawable/my_square_border"
+    android:textColor="@color/fullblack"
+    android:scrollbars="vertical"
+    android:gravity="top"/>
+
+
+</LinearLayout>

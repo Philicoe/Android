@@ -1,0 +1,112 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme"  >
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+ <!-- item name="android:background">#D2D2D2</item> -->
+    <style name="SBSAMSGLabel" parent="AppTheme">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textColor">#000771</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="SBSALONGButtons" parent="AppTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/bmi_button</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+
+    <style name="numberpickerstyle" parent="AppTheme">
+        <item name="colorControlNormal">@color/fullblack</item>
+        <item name="editTextColor">@color/SBSA_white</item>
+        <item name="android:solidColor">@color/fullblack</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:dividerHorizontal">@drawable/sbsablueline</item>
+
+
+    </style>
+
+
+    <style name="SBSASQUAREButtons" parent="AppTheme">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/bmi_button</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="SBSASRectButtons" parent="AppTheme">
+        <item name="android:layout_width">210dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:background">@drawable/bmi_button</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <!-- <item name="android:background">#D2D2D2</item> -->
+    <style name="SBSATitleBar" parent="AppTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#D2D2D2</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="SBSA_ActivityBaseStyle" parent="AppTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#D2D2D2</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:colorBackground">#FFFFFF</item>
+    </style>
+
+    <style name="BlankTableRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/sbsabackgroundgrey</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="NormalTextBoxes">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/textboxborder</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

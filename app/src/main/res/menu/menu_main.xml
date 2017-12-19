@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="bubbly2017.payfare.com.bubbly2017.MainActivity">
+    <item
+        android:id="@+id/action_getSaleTotals"
+        android:orderInCategory="100"
+        android:title="@string/GetSaleTotal"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_UploadTransactions"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_GetConfig"
+        android:orderInCategory="100"
+        android:title="@string/GetConfig"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_ClearSaleTotals"
+        android:orderInCategory="100"
+        android:title="@string/ClearSaleTotal"
+        app:showAsAction="ifRoom" />
+
+
+
+    <item
+        android:id="@+id/action_wifi_conf"
+        android:orderInCategory="100"
+        android:title="@string/action_wifi_settings"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_showTERMSN"
+        android:orderInCategory="100"
+        android:title="@string/action_showTERMSN"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_exit_app"
+        android:orderInCategory="100"
+        android:title="@string/action_exitapp"
+        app:showAsAction="ifRoom" />
+
+
+
+
+</menu>

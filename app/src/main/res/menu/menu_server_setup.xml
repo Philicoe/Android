@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="bubbly2017.payfare.com.bubbly2017.ServerSetup">
+
+
+
+    <item android:id="@+id/Server_Settings_menu_action_exit" android:title="@string/Server_Settings_menu_action_settings"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/Server_Settings_menu_action_exit_no_Save" android:title="@string/Server_Settings_menu_action_settings_no_Save"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+</menu>
