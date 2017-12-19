@@ -4,11 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="SBSA_white">#ffffff</color>
-    <color name="SBSA_BLUE">#000771</color>
     <color name="fullblack">#000000</color>
     <color name="light_grey">#cacaca</color>
     <color name="STDwhite">#FFFFFF</color>
-    <color name="OkBTNGreen">#00FF40</color>
     <color name="OkCancelRed">#87ff0000</color>
-    <color name="OkBackBTNYellow">#FFFF00</color>
 </resources>
